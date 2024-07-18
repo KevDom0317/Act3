@@ -1,0 +1,113 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4CAF50;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pokedex {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    background-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pokedex-left, .pokedex-right {
+    flex: 1;
+    padding: 10px;
+    color: white;
+}
+
+.pokedex-left {
+    background-color: #e22c2c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 200px;
+}
+
+#search-btn {
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: black;
+}
+
+.pokemon-info {
+    text-align: center;
+}
+
+.pokemon-image img {
+    width: 150px;
+    height: 150px;
+}
+
+#shiny-btn {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pokedex-right {
+    background-color: #f75959;
+}
+
+.pokemon-stats p, .pokemon-types button, .pokemon-move p {
+    margin: 5px 0;
+}
+
+.pokemon-types {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.type {
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.pokemon-evolution {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.pokemon-evolution img {
+    width: 80px;
+    height: 80px;
+}
+
+.pokemon-move {
+    background-color: #ffffff30;
+    padding: 10px;
+    border-radius: 5px;
+}

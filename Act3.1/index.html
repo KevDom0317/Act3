@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pokedex">
+        <div class="pokedex-left">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Enter Pokémon name or number">
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="pokemon-info">
+                <p id="pokemon-name">Ivysaur</p>
+                <p id="pokemon-number">No. 2</p>
+            </div>
+            <div class="pokemon-image">
+                <img id="pokemon-img" src="" alt="Pokemon Image">
+            </div>
+            <button id="shiny-btn">SHINY</button>
+        </div>
+        <div class="pokedex-right">
+            <div class="pokemon-stats">
+                <p>Hp: <span id="hp">60</span></p>
+                <p>Attack: <span id="attack">62</span></p>
+                <p>Defense: <span id="defense">63</span></p>
+                <p>Special Attack: <span id="sp-attack">80</span></p>
+                <p>Special Defense: <span id="sp-defense">80</span></p>
+                <p>Speed: <span id="speed">60</span></p>
+            </div>
+            <div class="pokemon-types">
+                <button id="type1" class="type">Grass</button>
+                <button id="type2" class="type">Poison</button>
+            </div>
+            <div class="pokemon-evolution">
+                <img src="" alt="Bulbasaur" id="bulbasaur">
+                <img src="" alt="No tiene evolución" id="ivysaur">
+                <img src="" alt="No tiene evolución" id="venusaur">
+            </div>
+            <div class="pokemon-move">
+                <p>Swords-Dance</p>
+                <p>TYPE: NORMAL</p>
+                <p>Accuracy: xx</p>
+                <p>Power: xx</p>
+                <p>PP: 20</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
